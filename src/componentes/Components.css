@@ -1,0 +1,30 @@
+.resultContainer{
+border: 1px solid #222;
+border-top: solid transparent 1px;
+margin-top: -3px;
+border-radius: 0 0 5px 5px;
+background-color: white;
+z-index: 1;
+}
+.inputStyle{
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+    z-index: 0;
+    height: 40px;
+}
+
+.styledItem{
+    padding: 5px;
+    border-bottom: none;
+    color: black;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.styledItem:hover{
+    background-color: #387ba1;
+    color: white;
+}
+
+
